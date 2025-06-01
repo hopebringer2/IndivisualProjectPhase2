@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(250, 250, 250);
+    color: black;
+
+}
+
+header{
+    color: aliceblue;
+    background-color: blue;
+}
+
+.base-text{
+    
+    
+    background-color: rgba(2, 14, 1, 0.705);
+}
+
+.paragraphs{
+    color: aliceblue;
+}
+
+.button{
+    color: black;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 25px;
+    background: gold; 
+    padding: 2px;
+    width: 150px;
+}
+
+.button-gameplay{
+    border: 2px solid gold;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.button-Again{
+    border: 2px solid gold;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.button-Login{
+    border: 2px solid gold;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+img{
+    object-fit: cover;
+    zoom: 1.2;
+    border: 5px;
+    border-radius: 20%;
+}
