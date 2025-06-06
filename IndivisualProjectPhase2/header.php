@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <title><?php echo isset( $pagebar ) ? $pagebar : "Search" ?></title>
+    </head>
     <form action="exsample.html" method="POST" id="IDinfo">
        <div>
             <label for="Uname">User name: </label>
