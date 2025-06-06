@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
-
-    <div>
+    <form action="exsample.html" method="POST" id="IDinfo">
+       <div>
             <label for="Uname">User name: </label>
             <input type="text" id="Uname" name="Uname" placeholder="UserName" required>
             <label for="Pword">Password: </label>
@@ -12,6 +12,8 @@
             it was the dots
         </p>
         </div>
+    </form>
+    
 <head>
     
 </head>
