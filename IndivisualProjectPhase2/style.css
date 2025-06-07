@@ -1,12 +1,13 @@
 body{
     background-color: rgb(250, 250, 250);
     color: black;
-
 }
 
-header{
+.header{
+    position: top;
+    position: sticky;
     color: aliceblue;
-    background-color: blue;
+    background-color: rgb(54, 0, 202);
 }
 
 .base-text{
@@ -15,18 +16,8 @@ header{
     background-color: rgba(2, 14, 1, 0.705);
 }
 
-.paragraphs{
-    color: aliceblue;
-}
-
-.button{
-    color: black;
-    text-align: center;
-    border: 3px solid white;
-    border-radius: 25px;
-    background: gold; 
-    padding: 2px;
-    width: 150px;
+p{
+    color: rgb(206, 19, 19);
 }
 
 .button-gameplay{
@@ -50,6 +41,4 @@ header{
 img{
     object-fit: cover;
     zoom: 1.2;
-    border: 5px;
-    border-radius: 20%;
 }
