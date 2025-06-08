@@ -6,7 +6,21 @@
 </head>
 <header>
     <div class="header">
-        <a href>Gadget tec</a>
+        Gadgetron
+        <a href="Gadgetron2002.php">2002</a>|
+        <a href="Gadgetron2002.php">2004</a>|
+        <a href="Gadgetron2002.php">2007</a>|
+        Megacorp
+        <a href="Gadgetron2002.php">2003</a>|
+        Go-Comet 
+        <a href="Gadgetron2002.php">2005</a>|
+        GrummelNet Industries
+        <a href="Gadgetron2002.php">2007</a>|
+        <a href="Gadgetron2002.php">2008</a>|
+        <a href="Gadgetron2002.php">2009</a>|
+        <a href="Gadgetron2002.php">2012</a>|
+        Zurkon Family
+        <a href="Gadgetron2002.php">2021</a>|
         <form action="main.html" method="POST" id="IDinfo">
            <div>
                 <label for="Uname">User name: </label>
