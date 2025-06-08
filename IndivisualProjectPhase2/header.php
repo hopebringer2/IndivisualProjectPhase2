@@ -6,12 +6,7 @@
 </head>
 <header>
     <div class="header">
-        <form action="search.php" method="GET" id="Searchinfo">
-           <div>
-                <input type="text" id="item" name="item" placeholder="Searchbar">
-            <button type="submit" form="Searchinfo" value="Login">Search</button>
-            </div>
-        </form>
+        <a href>Gadget tec</a>
         <form action="main.html" method="POST" id="IDinfo">
            <div>
                 <label for="Uname">User name: </label>
