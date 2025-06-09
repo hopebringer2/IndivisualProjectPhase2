@@ -2,7 +2,7 @@
     
 <?php 
 $pagebar = "Welcome to the shop!";
-include("header.php");
+include("include/header.php");
 ?>
 <head>
     <link rel="stylesheet" href="style.css">
