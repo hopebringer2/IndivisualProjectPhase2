@@ -18,16 +18,3 @@
         }
         return "";
     }
-
-    function checkcookie(){
-        let titlename=getcookie("titlename");
-        if(titlename!=""){
-            return titlename;
-        }else{
-            return test;
-        }
-    }
-
-    function deleteCookies(){
-
-    }
