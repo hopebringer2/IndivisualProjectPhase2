@@ -1,5 +1,7 @@
 <html>
     <head>
-        <title><?php echo isset( $pagebar ) ? $pagebar : id ?></title>
+        <?php
+            include("include/testheader.php");
+        ?>
     </head>
 </html>
