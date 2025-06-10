@@ -23,4 +23,14 @@
 </header>
 
 <script src="pullitemlist.js"></script>
+<script>
+    function setTitle(){
+        let titlename=getcookie("title");
+        if(titlename!=""){
+            document.title=titlename;
+        }else{
+            document.title="fail";
+        }
+    }
+</script>
 </html>

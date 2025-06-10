@@ -3,15 +3,6 @@
         document.cookie="title="+newtitle+"; expires=Thu, 18 Dec 2026 12:00:00 UTC";
     }
 
-    function setTitle(){
-        let titlename=getcookie("title");
-        if(titlename!=""){
-            document.title=titlename;
-        }else{
-            document.title="fail";
-        }
-    }
-
     function getcookie(cname){
         let name = cname + "=";
         let decodedCookie =decodeURIComponent(document.cookie);
