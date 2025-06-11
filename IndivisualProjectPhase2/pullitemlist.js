@@ -18,3 +18,15 @@
         }
         return "";
     }
+
+
+    function makeTablepage(){
+        let pagetype = getcookie("title");
+        let table = document.getElementById("thetable");
+        const tableStyle=table.style;
+        if(pagetype!=""){
+
+        }else{
+
+        }
+    }
