@@ -9,14 +9,4 @@
 </header>
 
 <script src="pullitemlist.js"></script>
-<script>
-    window.onload=function setTitle(){
-        let titlename=getcookie("title");
-        if(titlename!=""){
-            document.title=titlename;
-        }else{
-            document.title="fail";
-        }
-    };
-</script>
 </html>
