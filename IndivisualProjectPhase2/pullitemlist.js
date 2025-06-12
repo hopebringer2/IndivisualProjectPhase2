@@ -1,25 +1,20 @@
-    function makeTitle(name){
-        let newtitle=name;
-        document.cookie="title="+newtitle+"; expires=Thu, 18 Dec 2026 12:00:00 UTC";
-    }
-
-    function getcookie(cname){
-        let name = cname + "=";
-        let decodedCookie =decodeURIComponent(document.cookie);
-        let ca = decodedCookie.split(';');
-        for(let i=0;i<ca.length;i++){
-            let c=ca[i];
-            while(c.charAt(0)==' '){
-                c=c.substring(1);
-            }
-            if(c.indexOf(name)==0){
-                return c.substring(name.length, c.length);
-            }
-        }
-        return "";
-    }
-
-
     function makeTablepage(){
-        
+        let inde="000001";
+        /*for(let i=0;i<20;i++){
+
+        }
+        */
+
+        var x = document.createElement("TABLE");
+        x.setAttribute("id", "myTable");
+        document.body.appendChild(x);
+
+        var y = document.createElement("TR");
+        y.setAttribute("id", "myTr");
+        document.getElementById("myTable").appendChild(y);
+
+        var z = document.createElement("TD");
+        var t = document.createTextNode("hello");
+        z.appendChild(t);
+        document.getElementById("myTr").appendChild(z);
     }
